@@ -14,7 +14,7 @@
 // };
 const getMovie = async (movie) => {
   const apiKey = "e3a8c71b";
-  const url = `http://www.omdbapi.com/?apikey=${apiKey}&t=${movie}`;
+  const url = `https://www.omdbapi.com/?apikey=${apiKey}&t=${movie}`;
   const res = await fetch(url);
   const data = await res.json();
   showMovie(data);
