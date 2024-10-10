@@ -60,7 +60,6 @@ const showMovie = (movieData) => {
             />
           </div>
 
-          
           <div
             class="md:w-2/3 p-6 mx-auto flex flex-col justify-center lg:ml-32"
           >
