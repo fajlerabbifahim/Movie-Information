@@ -141,4 +141,5 @@ const searchButton = () => {
   } else {
     alert("Please enter a movie name.");
   }
+  document.getElementById("default-container").innerHTML = "";
 };
